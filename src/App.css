@@ -1,0 +1,31 @@
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #222;
+  padding: 10px;
+  color: white;
+}
+
+.app-title {
+  font-size: 1.5em;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+.app-game {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.app-selected {
+    text-decoration: underline;
+}
+
+.app-window {
+    text-align: center;
+}

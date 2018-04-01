@@ -1,0 +1,70 @@
+.game {
+    display: inline-block;
+    margin: 10px auto;
+    min-width: 400px;
+}
+
+.game button {
+    border: 1px solid #888;
+    color: #666;
+    background-color: white;
+}
+
+.game button:hover {
+    background-color: #DDD;
+}
+
+.entry-container {
+    margin: 10px 5px;
+}
+
+.entry {
+    margin: 5px 0px;
+    text-align: left;
+    line-height: 1.8rem;
+}
+
+.entry > * {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.entry-name {
+    display: inline-block;
+    width: 2.5rem;
+    text-align: center;
+}
+
+.entry-bar-container {
+    display: inline-block;
+}
+
+.entry-bar-container .entry-bar {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+    min-width: 8px;
+    min-height: 1rem;
+    background-color: #888;
+}
+
+.entry-score { }
+
+.entry-ratio {
+    color: #888;
+}
+
+.entry-footer {
+    margin: 10px 5px;
+    text-align: left;
+}
+
+.entry-footer > * {
+    vertical-align: middle;
+}
+
+
+.entry-total {
+    margin-left: 30px;
+    color: #888;
+}
